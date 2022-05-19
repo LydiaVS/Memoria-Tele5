@@ -6,15 +6,15 @@
         <li class="visible" id="cero">
           Brad Aparience
         </li>
-        <li class="visible" id="open" >
+        <li @click="panelIsOpen = !panelIsOpen" class="visible" id="open" >
           Basic
-          <ul>
-            <li class="invisible">Circle</li>
-            <li class="invisible">Colours</li>
-            <li class="invisible">Typography</li>
-            <li class="invisible">Layout Structure</li>
-            <li class="invisible">Imagery</li>
-            <li class="invisible">Animation</li>
+          <ul class="panel" v-show="panelIsOpen">
+            <li class="invisibl" >Circle</li>
+            <li class="invisibl" >Colours</li>
+            <li class="invisibl">Typography</li>
+            <li class="invisibl">Layout Structure</li>
+            <li class="invisibl">Imagery</li>
+            <li class="invisibl">Animation</li>
           </ul>
         </li>
         <li class="visible" >User Interface</li>
@@ -28,6 +28,16 @@
 
   </div>
 </template>
+<script>
+    export default {
+        data(){
+            return{
+                panelIsOpen: false
+            }
+        }
+    
+    }
+</script>
 
 <style lang="sass">
   //fuentes
@@ -36,6 +46,7 @@
     background-color: #135a9a
     width: 40vh
     height: 100vh
+    position: fixed
     ul 
       font-family: 'Rubik', sans-serif
       font-size: 12pt
@@ -53,8 +64,7 @@
   #cero
     margin-top: 0
   #open
-    .invisible
-      display: none
+    
       
 
 
