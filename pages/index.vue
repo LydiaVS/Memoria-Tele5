@@ -33,12 +33,13 @@ export default {
     margin-left: 50vh
     h1
       font-family: 'Rubik', sans-serif
-      font-size: 25pt
+      font-size: 40pt
       font-style: 500
     p 
       font-family: 'Rubik', sans-serif
       font-size: 12pt
       font-style: 300
+      @apply text-gray-500
     .mediaset
       @apply max-w-xl
     

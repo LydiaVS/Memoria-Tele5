@@ -7,8 +7,9 @@
            <NuxtLink to="/apariencia">Apariencia de Marca </NuxtLink>
         </li>
         <li @click="panelIsOpen = !panelIsOpen" class="visible" id="open" >
-          Básico
+          Marca
           <ul class="panel" v-show="panelIsOpen">
+            <li class="invisibl" > <NuxtLink to="/elementos">Elementos Básicos </NuxtLink></li>
             <li class="invisibl" > <NuxtLink to="/circulo">Circulo </NuxtLink></li>
             <li class="invisibl" ><NuxtLink to="/colores">Colores </NuxtLink></li>
             <li class="invisibl"><NuxtLink to="/tipo">Tipografía </NuxtLink></li>
