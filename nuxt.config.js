@@ -7,7 +7,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'LydiaVS',
+    title: 'Sistema_Tele5',
     htmlAttrs: {
       lang: 'en'
     },

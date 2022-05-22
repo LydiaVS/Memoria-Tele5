@@ -3,18 +3,18 @@
     <div class="logo"><LogoMenu/></div>
     <div class="said-main">
       <ul class="main">
-        <li class="visible" id="cero">
-          Brad Aparience
+        <li  class="visible" id="cero">
+           <NuxtLink to="/apariencia">Apariencia de Marca </NuxtLink>
         </li>
         <li @click="panelIsOpen = !panelIsOpen" class="visible" id="open" >
-          Basic
+          Básico
           <ul class="panel" v-show="panelIsOpen">
-            <li class="invisibl" >Circle</li>
-            <li class="invisibl" >Colours</li>
-            <li class="invisibl">Typography</li>
-            <li class="invisibl">Layout Structure</li>
-            <li class="invisibl">Imagery</li>
-            <li class="invisibl">Animation</li>
+            <li class="invisibl" > <NuxtLink to="/circulo">Circulo </NuxtLink></li>
+            <li class="invisibl" ><NuxtLink to="/colores">Colores </NuxtLink></li>
+            <li class="invisibl"><NuxtLink to="/tipo">Tipografía </NuxtLink></li>
+            <li class="invisibl"><NuxtLink to="/estilo">Estilo gráfico</NuxtLink></li>
+            <li class="invisibl"><NuxtLink to="/iconos">Iconos</NuxtLink></li>
+            <li class="invisibl"><NuxtLink to="/animacion">Animación</NuxtLink></li>
           </ul>
         </li>
         <li class="visible" >User Interface</li>
@@ -63,7 +63,7 @@
           cursor: pointer
   #cero
     margin-top: 0
-  #open
+  
     
       
 
