@@ -13,16 +13,28 @@
             <li class="invisibl" > <NuxtLink to="/circulo">Circulo </NuxtLink></li>
             <li class="invisibl" ><NuxtLink to="/colores">Colores </NuxtLink></li>
             <li class="invisibl"><NuxtLink to="/tipo">Tipografía </NuxtLink></li>
-            <li class="invisibl"><NuxtLink to="/estilo">Estilo gráfico</NuxtLink></li>
-            <li class="invisibl"><NuxtLink to="/iconos">Iconos</NuxtLink></li>
             <li class="invisibl"><NuxtLink to="/animacion">Animación</NuxtLink></li>
           </ul>
         </li>
-        <li class="visible" >User Interface</li>
-        <li class="visible">Communication Media</li>
-        <li class="visible">Corporate Branding</li>
-        <li class="visible">Motion pictures</li>
+        <li @click="panelIs2Open = !panelIs2Open" class="visible" >Estilos identidad visual
+          <ul class="panel" v-show="panelIs2Open">
+            <li class="invisibl" > <NuxtLink to="/tipo2">Tipografía</NuxtLink></li>
+            <li class="invisibl" > <NuxtLink to="/colores2">Paleta Colores</NuxtLink></li>
+            <li class="invisibl"><NuxtLink to="/estilo">Estilo gráfico</NuxtLink></li>
+            <li class="invisibl"><NuxtLink to="/iconos">Iconos</NuxtLink></li>
 
+          </ul>
+        </li>
+        <li @click="panelIs3Open = !panelIs3Open" class="visible">Pack Gráfico
+          <ul class="panel" v-show="panelIs3Open">
+            <li class="invisibl" > <NuxtLink to="/moviles">Elementos móviles</NuxtLink></li>
+            <li class="invisibl" > <NuxtLink to="/cabecera">Cabecera</NuxtLink></li>
+            <li class="invisibl" > <NuxtLink to="/rotulos">Rótulos</NuxtLink></li>
+            <li class="invisibl" > <NuxtLink to="/cortinillas">Cortinillas</NuxtLink></li>
+            <li class="invisibl" > <NuxtLink to="/mosca">Mosca</NuxtLink></li>
+
+          </ul>
+        </li>
       </ul>
     </div>
 
@@ -33,7 +45,9 @@
     export default {
         data(){
             return{
-                panelIsOpen: false
+                panelIsOpen: false,
+                panelIs2Open: false,
+                panelIs3Open: false
             }
         }
     

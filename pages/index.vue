@@ -34,12 +34,13 @@ export default {
     h1
       font-family: 'Rubik', sans-serif
       font-size: 40pt
-      font-style: 500
+      font-weight: 500
+      @apply pt-14 pb-3
     p 
       font-family: 'Rubik', sans-serif
       font-size: 12pt
-      font-style: 300
-      @apply text-gray-500
+      font-weight: 300
+      @apply text-gray-500 pr-28 pb-3
     .mediaset
       @apply max-w-xl
     

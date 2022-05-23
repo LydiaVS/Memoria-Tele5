@@ -39,4 +39,5 @@
     font-family: 'Rubik', sans-serif
     font-size: 13pt
     font-style: 500
+    @apply pt-4 pb-4
 </style>
