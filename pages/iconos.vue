@@ -8,13 +8,35 @@
     <br>
     Para fomentar su accesibilidad, es recomendable que los iconos vayan acompañados de texto alternativo.
     </p>
-    <img class="iconos"  src="../assets/img/iconos.jpg" alt="">
+    <div class="flex">
+      <img class="iconos"  src="../assets/img/iconos.jpg" alt="">
+      <img class="icono2"  src="../assets/img/icono2.jpg" alt="">
+
+    </div>
+
+    <h2>Ejemplo de aniamción del icono</h2>
+    <video-player src="video/deportes circ 2.mp4"/>
   </div>
 </div>
   
 </template>
+
+<script>
+import VideoPlayer from 'nuxt-video-player'
+
+export default{
+components: {
+    VideoPlayer
+}
+
+}
+</script>
 <style lang="sass">
+  .flex
+    display: flex
   .iconos
-    @apply pb-24 pt-12 max-w-md
+    @apply  max-w-md  
+  .icono2
+    @apply max-w-xs 
     
 </style>

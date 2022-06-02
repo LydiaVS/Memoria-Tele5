@@ -9,7 +9,7 @@ export default {
   head: {
     title: 'Sistema_Tele5',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'es'
     },
     meta: [
       { charset: 'utf-8' },
