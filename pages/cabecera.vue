@@ -8,7 +8,7 @@
     noticias cambiantes, unidas por líneas que las conectan (representadas por el gráfico)
     </p>
     <h3>Keyvisual</h3>
-   <img class="key" src="../assets/img/keyvisual.jpg" alt="">
+   <img class="key" src="img/keyvisual.jpg" alt="">
    <h2>Animación de cabecera</h2>
     <video-player class="cabecera" src="video/cabecera.mp4"/>
   </div>

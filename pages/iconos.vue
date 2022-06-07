@@ -9,8 +9,8 @@
     Para fomentar su accesibilidad, es recomendable que los iconos vayan acompañados de texto alternativo.
     </p>
     <div class="flex">
-      <img class="iconos"  src="../assets/img/iconos.jpg" alt="">
-      <img class="icono2"  src="../assets/img/icono2.jpg" alt="">
+      <img class="iconos"  src="img/iconos.jpg" alt="">
+      <img class="icono2"  src="img/icono2.jpg" alt="">
 
     </div>
 

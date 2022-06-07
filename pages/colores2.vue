@@ -7,7 +7,7 @@
     <p>La paleta de color primaria  está compuesta de los mismos colores que coponen la marca con el objetivo de dar continuidad y unificación.
     Ambos son colores brillantes y vivos que resultan familiares al usuario por ser los mismos que los de la marca Telecinco.
     </p>
-    <img class="colores" src="../assets/img/color-primario.jpg" alt="">
+    <img class="colores" src="img/color-primario.jpg" alt="">
     <h3>Algunas recomendaciones de uso</h3>
     <p>El color azul escogido debe usarse en headings. Para un buen contraste debe usarse en texto sobre fondo blanco.
     Aunque el color blanco está pensado para usarse como fondo para la pastilla de rotulación principal, puede usarse en headings y en texto corrido pero siempre sobre fondos con oscuridad mínima del color azul primario.
@@ -28,7 +28,7 @@
     </p>
     <h3>Gris auxiliar </h3>
     <p>Este color ha sido pensado para ser usado en subtítulos y texto corrido sobre fondos claros.</p>
-    <img class="colores" src="../assets/img/colores-sec.jpg" alt="">
+    <img class="colores" src="img/colores-sec.jpg" alt="">
   </div>
 </div>
   

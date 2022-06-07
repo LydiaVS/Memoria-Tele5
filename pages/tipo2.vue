@@ -4,7 +4,7 @@
   <div class="caja">
     <h1>Estilo Tipográfico</h1>
     <p>Rubik fue diseñada por Philipp Hubert y Sebastian Fischer en Hubert & Fischer como parte del Chrome Cube Lab project. Es de licencia abierta, además incluye elementos OpenType.</p>
-    <img class="rubik" src="../assets/img/Rubik.jpg" alt="">
+    <img class="rubik" src="img/Rubik.jpg" alt="">
     <h2>Rubik</h2>
     <p>La tipografía escogida para el sistema de diseño es Rubik, una sans serif con bordes levemente redondeados que la hacen singular y amable, dos  de nuestros valores.
     El estilo tipográfico debe ser aplicado usando los siguiente parámetros:
@@ -30,7 +30,7 @@
     Esta escala tipográfica de ejemplo utiliza Rubik para todos los titulares, cuerpo y subtítulos.
     La jerarquía se comunica a través de diferencias en el peso de la fuente (Bold,Semibold, Regular) y tamaño
     </p>
-    <img class="tip" src="../assets/img/tamañostipo.jpg" alt="">
+    <img class="tip" src="img/tamañostipo.jpg" alt="">
   </div>
 </div>
   

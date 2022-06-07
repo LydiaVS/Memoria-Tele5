@@ -6,7 +6,7 @@
     <p>El logotipo de Informativos telecinco está conformado por dos elementos:
     Por un lado, la palabra informativos y por otra el logotipo de Telecinco con algunas modificaciones que se explican adelante.
     </p>
-     <img src="../assets/img/Logo.jpg" alt="">
+     <img src="img/Logo.jpg" alt="">
     <h2>Clear Space</h2>
     <p>El clear space es el espacio que rodea el logotipo y 
         que está libre de texto o gráficos. 
@@ -17,20 +17,20 @@
         Esta área de separación es un mínimo y debe ser
         aumentada siempre que sea posible.
     </p>
-    <img src="../assets/img/ClearSpace.jpg" alt="">
+    <img src="img/ClearSpace.jpg" alt="">
     <h2>Estados de la marca</h2>
     <p>La marca está pensada para poder adaptarse a distintos tamaños:</p>
     <h3>La Reducción 1</h3>
     <p>En las cabeceras aparecerá la palabra informativos completa que se transforma en la reducción 1. 
       El objetivo de esta reducción es puramente retórica ya que intentamos comunicar que es Telecinco quien informa, es decir, personificamos la marca.
     </p>
-    <img src="../assets/img/Reduccion1.jpg" alt="">
+    <img src="img/Reduccion1.jpg" alt="">
     <h3>La Reducción 2</h3>
     <p>Para tamaños menores se debe usar la reducción dos, con el objetivo de lograr mayor legibilidad y menor peso visual que con la reducción anterior.</p>
-    <img src="../assets/img/Reduccion2.jpg" alt="">
+    <img src="img/Reduccion2.jpg" alt="">
     <h3>Positivo y negativo</h3>
     <p>Estas versiones en positivo y negativo se usarán en elementos impresos en blanco y negro, por ejemplo facturas, cartas …</p>
-    <img src="../assets/img/Logo_Negativo.jpg" alt="Logo Positivo y Negativo">
+    <img src="img/Logo_Negativo.jpg" alt="Logo Positivo y Negativo">
   </div>
 </div>
 </template>

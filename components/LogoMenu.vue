@@ -1,6 +1,6 @@
 <template>
     <div class="logo">
-        <NuxtLink to="/"><img src="../assets/img/Logo.png" alt="logo tele5"></NuxtLink>
+        <NuxtLink to="/"><img src="img/Logo.png" alt="logo tele5"></NuxtLink>
     </div>
 </template>
 <style lang="sass">
